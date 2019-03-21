@@ -1,0 +1,87 @@
+<HTML>
+	<head>
+		<style>
+			body{
+				text-align:center;
+				background-color:#255e69;
+				color:#6a959d;
+			}
+			h1{
+				color:#6a959d;
+			}
+
+			/* nav bar */
+			header{
+				background:#012c34;
+			}
+			.container{
+				width:80%;
+				margin:0 auto;
+			}
+			nav{
+				text-align:center;
+				width:100%
+			}
+			nav ul{
+				margin:20px;
+				padding:0;
+				list-style:none;
+			}
+			nav li{
+				display:inline-block;
+				margin-left:70px;
+				padding-top:10px;
+				position:relative;
+			}
+			nav a{
+				color:#6a959d;
+				text-decoration:none;
+				text-transform:uppercase;
+				font-size:14px;
+			}
+			nav a:hover{
+				color:black;
+			}
+			nav a::before{
+				content:'';
+				display:block;
+				height:5px;
+				width:0%;
+				background-color:#444;
+				position:absolute;
+				top:0;
+				transition:all ease-in-out 250ms;
+			}
+			nav a:hover::before{
+				width:100%;
+				
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+			
+				<nav>
+					<ul>
+						<li><a href="Rachael's_Website_Home.html"> Home</a></li>
+						<!--
+						<li><a href="About.html">About</a></li>
+						<li><a href="Projects.html">Projects</a></li>
+						<li><a href="Freelance.html">Freelance</a></li>
+						<li><a href="Upcoming.html">Upcoming</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						-->
+					</ul>
+				</nav>
+			
+			</div>
+		</header>
+		<h1>Home</h1>
+		<p>Content</p>
+		<p>More Content</p>
+		<p>To add more stuff, just copy and paste the firts line uner home, and replace home.  You can add as much content to each section as you would like.  Starting a new p will simply start a new line</p>
+		
+	</body>
+</HTML>
